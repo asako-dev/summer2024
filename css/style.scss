@@ -240,6 +240,13 @@ header {
                 color: $blue;
             }
         }
+        &__text-s{
+            text-align: center;
+            padding-top: 1rem;
+            a {
+                color: $blue;
+            }
+        }
 
     }
 

@@ -92,7 +92,8 @@ header h1 {
   padding-bottom: 2rem;
 }
 #prize h3 span {
-  text-emphasis: filled dot #C9145A;
+  -webkit-text-emphasis: filled dot #C9145A;
+          text-emphasis: filled dot #C9145A;
   font-weight: 400;
 }
 #prize h4 {
@@ -171,6 +172,13 @@ header h1 {
   padding: 2rem 0 0;
 }
 #prize .best_list__text a {
+  color: #0071B1;
+}
+#prize .best_list__text-s {
+  text-align: center;
+  padding-top: 1rem;
+}
+#prize .best_list__text-s a {
   color: #0071B1;
 }
 #prize .plus {
@@ -789,7 +797,8 @@ footer nav ul:first-of-type {
     padding-bottom: 70px;
   }
   #prize h3 span {
-    text-emphasis: filled dot #F6E63F;
+    -webkit-text-emphasis: filled dot #F6E63F;
+            text-emphasis: filled dot #F6E63F;
     font-weight: 400;
   }
   #prize h4 {
@@ -1278,4 +1287,6 @@ footer nav ul:first-of-type {
   }
   /***dlボタンここまで***/
   /***コンテンツここまで***/
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
