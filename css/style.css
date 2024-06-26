@@ -822,7 +822,7 @@ footer nav ul:first-of-type {
   }
   #prize .best_all {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   #prize .best_all__li {
     border-bottom: none;
@@ -839,7 +839,7 @@ footer nav ul:first-of-type {
     text-align: center;
   }
   #prize .best_list img {
-    height: 12rem;
+    max-height: 9rem;
     width: auto;
     margin: auto;
   }

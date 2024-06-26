@@ -220,7 +220,7 @@ header {
 
     .best_all {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
 
         &__li {
             border-bottom: none;
@@ -240,7 +240,7 @@ header {
         text-align: center;
 
         img {
-            height: 12rem;
+            max-height: 9rem;
             width: auto;
             margin: auto;
         }
