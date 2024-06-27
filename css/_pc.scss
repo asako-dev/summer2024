@@ -271,10 +271,15 @@ header {
             font-size: 16px;
             text-align: center;
             padding: 2rem 0 0;
-
             a {
                 color: $blue;
             }
+        }
+        &__text-s{
+            font-size: 16px;
+            font-size: 1rem;
+            padding-left: 15px;
+
         }
 
     }

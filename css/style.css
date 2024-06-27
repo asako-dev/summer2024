@@ -92,8 +92,7 @@ header h1 {
   padding-bottom: 2rem;
 }
 #prize h3 span {
-  -webkit-text-emphasis: filled dot #C9145A;
-          text-emphasis: filled dot #C9145A;
+  text-emphasis: filled dot #C9145A;
   font-weight: 400;
 }
 #prize h4 {
@@ -175,8 +174,9 @@ header h1 {
   color: #0071B1;
 }
 #prize .best_list__text-s {
-  text-align: center;
   padding-top: 1rem;
+  font-size: 1rem;
+  padding-left: 30%;
 }
 #prize .best_list__text-s a {
   color: #0071B1;
@@ -797,8 +797,7 @@ footer nav ul:first-of-type {
     padding-bottom: 70px;
   }
   #prize h3 span {
-    -webkit-text-emphasis: filled dot #F6E63F;
-            text-emphasis: filled dot #F6E63F;
+    text-emphasis: filled dot #F6E63F;
     font-weight: 400;
   }
   #prize h4 {
@@ -878,6 +877,11 @@ footer nav ul:first-of-type {
   }
   #prize .best_list__text a {
     color: #0071B1;
+  }
+  #prize .best_list__text-s {
+    font-size: 16px;
+    font-size: 1rem;
+    padding-left: 15px;
   }
   #prize .plus {
     padding: 2rem 0 0;
@@ -1287,6 +1291,4 @@ footer nav ul:first-of-type {
   }
   /***dlボタンここまで***/
   /***コンテンツここまで***/
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

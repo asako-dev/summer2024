@@ -241,8 +241,9 @@ header {
             }
         }
         &__text-s{
-            text-align: center;
             padding-top: 1rem;
+            font-size: 1rem;
+            padding-left: 30%;
             a {
                 color: $blue;
             }
